@@ -4,7 +4,7 @@
   <div class="slider-wrapper">
     <RouterLink :to="'/activity/' + activity.text" v-for="activity in activities" :key="activity">
       <div class="activity-item">
-        <div class="activity-icon mx-auto"><img :src="'/OceanLet/assets/' + activity.icon" :alt="activity.text" /></div>
+        <div class="activity-icon mx-auto p-1"><img :src="'/OceanLet/assets/' + activity.icon" :alt="activity.text" class="my-0 mx-auto h-100 w-100"/></div>
         <div class="activity-label mx-auto">{{ activity.text }}</div>
       </div>
     </RouterLink>

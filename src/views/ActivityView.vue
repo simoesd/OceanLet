@@ -44,7 +44,7 @@
         'surf': {
             title: 'surf',
             background: 'surfboard.svg',
-            description: 'Are you ready to experience the thrill of gliding across the water on a surfboard? Surfing is an exhilarating water sport that will provide you with a full-body workout, improve your balance and strength, and connect you with the natural beauty of the ocean. Whether you're a seasoned pro or a beginner looking to try something new, surfing has something to offer for everyone. So why wait? Grab a board and hit the waves today!'
+            description: 'Are you ready to experience the thrill of gliding across the water on a surfboard? Surfing is an exhilarating water sport that will provide you with a full-body workout, improve your balance and strength, and connect you with the natural beauty of the ocean. Whether you\'re a seasoned pro or a beginner looking to try something new, surfing has something to offer for everyone. So why wait? Grab a board and hit the waves today!'
         },
         'windsurf': {
             title: 'windsurf',

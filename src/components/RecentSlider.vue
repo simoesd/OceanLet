@@ -77,24 +77,28 @@
         distance: "8 Km",
         categories: ["Kayaking"],
       },
+      {
         id:'8',
         text: 'Kayaking',
         icon: "kayak3.svg",
         distance: "8 Km",
         categories: ["Kayaking"],
       },
+      {
         id:'9',
         text: 'Kayaking',
         icon: "kayak4.svg",
         distance: "8 Km",
         categories: ["Kayaking"],
       },
+      {
         id:'10',
         text: 'Kayaking',
         icon: "kayak5.svg",
         distance: "8 Km",
         categories: ["Kayaking"],
       },
+      {
         id:'11',
         text: 'Kayaking',
         icon: "kayak6.svg",

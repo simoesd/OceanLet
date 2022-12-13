@@ -1,22 +1,22 @@
 
 <template>
-    <div class="container">
-        <div class="slider-title my-3">
-            <i className="icon bi-water text-primary"></i>
-            Search Results for: {{ searchTerm }}
-        </div>
-        <div class="slider-wrapper vertical my-2">
-            <RouterLink :to="'/listing/' + listing.id" v-for="listing in getListings" :key="listing">
-                <div class="location-item" :style="'background-image: url(\'/OceanLet/assets/' + listing.icon + '\')'">
-                    <div class="bottom-gradient-filter">
+  <div class="container">
+      <div class="slider-title my-3">
+          <i className="icon bi-water text-primary"></i>
+          Search Results for: "{{ searchTerm }}"
+      </div>
+      <div class="slider-wrapper vertical my-2">
+          <RouterLink :to="'/listing/' + listing.id" v-for="listing in getListings" :key="listing">
+              <div class="location-item" :style="'background-image: url(\'/OceanLet/assets/' + listing.icon + '\')'">
+                  <div class="bottom-gradient-filter">
                     <div class="location-label">{{ listing.text }}</div>
                     <div class="location-distance">{{ listing.distance }}</div>
-                </div>
-            </div>
-            </RouterLink>
-        </div>
-    </div>
-    </template>
+                  </div>
+              </div>
+          </RouterLink>
+      </div>
+  </div>
+</template>
 
 <script setup>
     import { ref, toRefs, computed } from 'vue';
@@ -28,7 +28,7 @@
     const { searchTerm } = toRefs(props)
 
     const getListings = computed(() => {
-      if (!(searchTerm.value)) {
+      if (!searchTerm.value) {
         return listings.value;
       } else {
         return listings.value.filter(listing => hasSearchTerms(listing))

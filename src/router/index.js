@@ -39,6 +39,12 @@ const router = createRouter({
       props: true,
     },
     {
+      path: '/search/',
+      name: 'searchNoResult',
+      component: SearchView,
+      props: true,
+    },
+    {
       // path: '/about',
       // name: 'about',
       // // route level code-splitting

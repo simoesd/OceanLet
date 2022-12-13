@@ -8,6 +8,7 @@
             </div>
             <ActivitySlider/>
         </div>
+        <hr style="opacity: 0;">
         <div class="my-4">
             <div class="slider-title my-3">
                 <i className="icon bi-geo-alt-fill text-danger"></i>
@@ -15,6 +16,7 @@
             </div>
             <LocationSlider/>
         </div>
+        <hr style="opacity: 0;">
         <div class="my-4">     
             <div class="slider-title my-3">
                 <i className="icon bi-lightbulb-fill text-warning"></i>

@@ -94,7 +94,7 @@ import { ref, onMounted } from'vue';
             icon: "kayak1.svg",
             distance: "4 Km",
             categories: ["kayaking"],
-            location: 'Dyrehavevej 18, 2930 Klampenborg'
+            location: 'Dyrehavevej 18, 2930 Klampenborg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.',
             basePrice: '250',
             rating: '5/5',

@@ -1,7 +1,7 @@
 
 <template>
     <div class="mb-4 location-background" :style="'background-image: url(\'/OceanLet/assets/' + locationInfo[location.toLowerCase()].background + '\')'" >
-        <div class="activity-background-filter p-3">
+        <div class="activity-background-filter">
             <div style="position:relative; height: 100%;">
                 <div style="position:absolute; bottom:0; height:fit-content">
                     <div class="activity-bg-label">{{ locationInfo[location.toLowerCase()].title }}</div>
@@ -15,7 +15,7 @@
             <i className="icon bi-water text-primary"></i>
             Listings relevant to this location:
         </div>
-        <RecentSlider/>
+        <RecentSlider :random="true"/>
     </div>
 </template>
 

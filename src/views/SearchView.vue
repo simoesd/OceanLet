@@ -5,7 +5,7 @@
           <i className="icon bi-water text-primary"></i>
           Search Results for: "{{ searchTerm }}"
       </div>
-      <div class="slider-wrapper vertical my-2">
+      <div class="slider-wrapper vertical my-2" v-if="getListings">
           <RouterLink :to="'/listing/' + listing.id" v-for="listing in getListings" :key="listing">
               <div class="location-item" :style="'background-image: url(\'/OceanLet/assets/' + listing.icon + '\')'">
                   <div class="bottom-gradient-filter">
@@ -14,7 +14,8 @@
                   </div>
               </div>
           </RouterLink>
-      </div>
+        </div>
+        <h3 v-else> We couldn't find any results for your search. </h3>
   </div>
 </template>
 
@@ -45,77 +46,83 @@
     }
 
     const listings = ref([
-      {
+      
+    {
         id:'1',
-        text: 'Copenhagen Lakes',
-        icon: "bike.jfif",
+        text: 'Paddleboard',
+        icon: "paddle1.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Paddleboard"],
       },
       {
         id:'2',
-        text: 'Bellevue Beach',
-        icon: "bike.jfif",
+        text: 'Kayak',
+        icon: "kayak1.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Kayaking"],
       },
       {
         id:'3',
-        text: 'Amager Strand',
-        icon: "bike.jfif",
+        text: 'Canoe',
+        icon: "canoe1.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Canoeing"],
       },
       {
         id:'4',
-        text: 'Lyngby Lake',
-        icon: "bike.jfif",
+        text: 'Surfboard',
+        icon: "surf1.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
-      },
-      {
-        id:'4',
-        text: 'Charlotte Lund',
-        icon: "bike.jfif",
-        distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Surfing"],
       },
       {
         id:'5',
-        text: 'Fishing',
-        icon: "bike.jfif",
+        text: 'Windsurf',
+        icon: "windsurf1.svg",
         distance: "8 Km",
-        categories: ["paddleboard", "kayaking"],
-        location: '',
-        author: '',
+        categories: ["Windsurfing"],
       },
       {
         id:'6',
-        text: 'Rowing',
-        icon: "bike.jfif",
+        text: 'Kayak',
+        icon: "kayak2.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Kayaking"],
       },
       {
         id:'7',
-        text: 'Wakeboarding',
-        icon: "bike.jfif",
+        text: 'Row boat',
+        icon: "rowing1.svg",
         distance: "8 Km",
-        categories: ["kayaking"],
-        location: '',
-        author: '',
+        categories: ["Rowing", "Fishing"],
+      },
+      {
+        id:'8',
+        text: 'Kayak',
+        icon: "kayak3.svg",
+        distance: "8 Km",
+        categories: ["Kayaking"],
+      },
+      {
+        id:'9',
+        text: 'Kayak',
+        icon: "kayak4.svg",
+        distance: "8 Km",
+        categories: ["Kayaking"],
+      },
+      {
+        id:'10',
+        text: 'Kayak',
+        icon: "kayak5.svg",
+        distance: "8 Km",
+        categories: ["Kayaking"],
+      },
+      {
+        id:'11',
+        text: 'Kayak',
+        icon: "kayak6.svg",
+        distance: "8 Km",
+        categories: ["Kayaking"],
       },
     ]);
 </script>

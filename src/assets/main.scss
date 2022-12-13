@@ -1,7 +1,13 @@
 @import './base.css';
 
+
 $box-shadow: 6px 10px 10px -9px rgba(0, 0, 0, 0.75);
 $customBlue: #3473BF;
+
+.dp__theme_light {
+   --dp-primary-color: #3473BF;
+   --dp-success-color: #3473BF;
+}
 
 body {
     background-color: white;
@@ -51,6 +57,7 @@ body {
     padding-bottom: 10px;
     overflow-x: auto;
     overflow-y: visible;
+    justify-items: center;
 
     &.vertical {
         overflow-y: auto;
@@ -122,26 +129,6 @@ body {
     }
 }
 
-.location-item {
-    width: 200px;
-    height: 150px;
-    border-radius: 5px;
-    box-shadow: 6px 10px 10px -9px rgba(0, 0, 0, 0.75);
-    object-fit: contain;
-    background-size: cover;
-
-    .location-label {
-        color: white;
-        width: fit-content;
-    }
-
-    .location-distance {
-        color: white;
-        font-size: 0.8rem;
-        margin-bottom: 0;
-    }
-}
-
 .bottom-gradient-filter {
     position: absolute;
     bottom: 0;
@@ -184,6 +171,9 @@ body {
     height: 65%;
     width: 100%;
     position: absolute;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1rem;
     bottom: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
     color: white;

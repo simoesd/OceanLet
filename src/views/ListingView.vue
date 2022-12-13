@@ -26,7 +26,7 @@
             <div v-if="showingError" class="rent-message">Renting is disabled for this Demo, but thank you for your interest!</div>
         </div>
             <div class="listing-date">
-            <DatePicker inline range auto-apply v-model="dateRange" :enable-time-picker="false"></DatePicker>
+            <DatePicker inline range auto-apply v-model="dateRange" :enable-time-picker="false" :min-date="new Date()" :disabled-dates="disabledDateRange" no-disabled-range prevent-min-max-navigation six-weeks/>
         </div>
         <div class="listing-time" v-if="dateRange">
             <div class="row">
@@ -68,12 +68,30 @@ import { ref, onMounted } from'vue';
     const startTime = ref();
     const endTime = ref();
     const showingError = ref(false);
+    const disabledDateRange = ref([])
     
     onMounted(() => {
             const startDate = new Date(new Date().setDate(new Date().getDate() + 1));
-            const endDate = new Date(new Date().setDate(startDate.getDate() + 7));
+            const endDate = new Date(new Date().setDate(startDate.getDate() + 3));
             dateRange.value = [startDate, endDate];
+            getDisabledDates();
     })
+
+    Date.prototype.addDays = function(days) {
+        var date = new Date(this.valueOf());
+        date.setDate(date.getDate() + days);
+        return date;
+    }
+
+    const getDisabledDates = () => { 
+        const startDate = new Date(new Date().setDate(dateRange.value[1].getDate() + 1 + Math.round(Math.random() * 4)));
+        const stopDate = new Date(new Date().setDate(startDate.getDate() + 1 + Math.round(Math.random() * 4))); 
+        var currentDate = startDate;
+        while (currentDate <= stopDate) {
+            disabledDateRange.value.push(new Date (currentDate));
+            currentDate = currentDate.addDays(1);
+        }
+    }
 
     const listingInfo = ref({
         '1' : {

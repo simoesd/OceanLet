@@ -29,12 +29,12 @@
 
     const locationInfo = {
         '1': {
-            title: 'paddleboard',
+            title: 'Bellevue Beach',
             background: 'canoe.jfif',
             description: 'Kayak 👍'
         },
         '2': {
-            title: 'Kayaking',
+            title: 'Copenhagen Lakes',
             background: 'canoe.jfif',
             description: 'Kayak 👍'
         },

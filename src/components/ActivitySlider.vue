@@ -16,35 +16,35 @@
     const activities = ref([
       {
         text: 'Paddleboard',
-        icon: "paddle-board.png"
+        icon: "paddle-board.svg"
       },
       {
         text: 'Kayaking',
-        icon: "kayak.png"
+        icon: "kayak.svg"
       },
       {
         text: 'Canoeing',
-        icon: "canoe.png"
+        icon: "canoe.svg"
       },
       {
         text: 'Surf',
-        icon: "surfboard.png"
+        icon: "surfboard.svg"
       },
       {
         text: 'Windsurf',
-        icon: "windsurving.png"
+        icon: "windsurfing.svg"
       },
       {
         text: 'Fishing',
-        icon: "fishing.png"
+        icon: "fishing.svg"
       },
       {
         text: 'Rowing',
-        icon: "rowing.png"
+        icon: "rowing.svg"
       },
       {
-        text: 'Snorkeling',
-        icon: "snorkel.png"
+        text: 'Wakeboarding',
+        icon: "wakeboarding.svg"
       },
     ]);
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="slider-wrapper">
     <RouterLink :to="'/location/' + location.id" v-for="location in locations" :key="location">
-        <div class="location-item" :style="'background-image: url(\'/src/assets/' + location.icon + '\')'">
+        <div class="location-item" :style="'background-image: url(\'/OceanLet/assets/' + location.icon + '\')'">
           <div class="bottom-gradient-filter">
             <div class="location-label">{{ location.text }}</div>
             <div class="location-distance">{{ location.distance }}</div>

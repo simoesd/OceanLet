@@ -1,6 +1,6 @@
 
 <template>
-    <div class="mb-4 location-background" :style="'background-image: url(\'/src/assets/' + locationInfo[location.toLowerCase()].background + '\')'" >
+    <div class="mb-4 location-background" :style="'background-image: url(\'/OceanLet/assets/' + locationInfo[location.toLowerCase()].background + '\')'" >
         <div class="activity-background-filter p-3">
             <div style="position:relative; height: 100%;">
                 <div style="position:absolute; bottom:0; height:fit-content">

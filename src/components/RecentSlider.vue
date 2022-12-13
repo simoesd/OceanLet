@@ -1,7 +1,7 @@
 <template>
   <div class="slider-wrapper vertical">
     <RouterLink :to="'/listing/' + listing.id" v-for="listing in getListings" :key="listing">
-        <div class="location-item" :style="'background-image: url(\'/src/assets/' + listing.icon + '\')'">
+        <div class="location-item" :style="'background-image: url(\'/OceanLet/assets/' + listing.icon + '\')'">
           <div class="bottom-gradient-filter">
             <div class="location-label">{{ listing.text }}</div>
             <div class="location-distance">{{ listing.distance }}</div>

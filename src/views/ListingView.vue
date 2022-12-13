@@ -2,10 +2,10 @@
 <template>
     <div class="container listing-container my-4 pb-4">
         <div class="listing-header my-auto mx-4">{{ listingInfo[listing].rating }} <i className="icon bi-star-fill"></i> {{ listingInfo[listing].location }} </div>
-        <div class="listing-image mx-4" :style="'background-image: url(\'/src/assets/' + listingInfo[listing].icon + '\')'" >
+        <div class="listing-image mx-4" :style="'background-image: url(\'/OceanLet/assets/' + listingInfo[listing].icon + '\')'" >
         </div>
         <div class="author-block">
-            <img :src="'/src/assets/author-logo.png'" :alt="listingInfo[listing].author" class="author-image mx-auto"/>
+            <img :src="'/OceanLet/assets/author-logo.png'" :alt="listingInfo[listing].author" class="author-image mx-auto"/>
             <div class="author-name">
                 {{ listingInfo[listing].author }} <small style="font-size: 0.8rem">{{ listingInfo[listing].authorRating }} <i className="icon bi-star-fill"></i></small>
             </div>

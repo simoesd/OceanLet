@@ -29,44 +29,44 @@
 
     const locationInfo = {
         '1': {
-            title: 'Bellevue Beach',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Copenhagen Lakes',
+            background: 'lakes.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '2': {
-            title: 'Copenhagen Lakes',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Bellevue Beach',
+            background: 'bellevue.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '3': {
-            title: 'canoeing',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Amager Strand',
+            background: 'amager.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '4': {
-            title: 'surf',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Lyngby Lakes',
+            background: 'lyngby.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '5': {
-            title: 'windsurf',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Charlottenlund',
+            background: 'charlottenlund.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '6': {
-            title: 'fishing',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Christianshavn',
+            background: 'christianshavn.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '7': {
-            title: 'rowing',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Sydhavn',
+            background: 'sydhavn.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
         '8': {
-            title: 'wakeboarding',
-            background: 'canoe.jfif',
-            description: 'Kayak 👍'
+            title: 'Vedbæk beach',
+            background: 'vedbaek.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue eros, vulputate sit amet risus nec, tristique vestibulum nibh. Aliquam quis ex quis diam viverra sollicitudin. Nulla sed condimentum erat. Praesent placerat, sem eu sollicitudin ultrices, diam orci maximus massa, quis semper massa augue ut turpis.'
         },
     }
 

@@ -28,42 +28,42 @@
     const activityInfo = {
         'paddleboard': {
             title: 'paddleboard',
-            background: 'canoe.jfif',
+            background: 'paddle-board.png',
             description: 'Kayak 👍'
         },
         'kayaking': {
             title: 'Kayaking',
-            background: 'canoe.jfif',
+            background: 'kayak.png',
             description: 'Kayak 👍'
         },
         'canoeing': {
             title: 'canoeing',
-            background: 'canoe.jfif',
+            background: 'canoe.png',
             description: 'Kayak 👍'
         },
         'surf': {
             title: 'surf',
-            background: 'canoe.jfif',
+            background: 'surfboard.png',
             description: 'Kayak 👍'
         },
         'windsurf': {
             title: 'windsurf',
-            background: 'canoe.jfif',
+            background: 'windsurving.png',
             description: 'Kayak 👍'
         },
         'fishing': {
             title: 'fishing',
-            background: 'canoe.jfif',
+            background: 'fishing.png',
             description: 'Kayak 👍'
         },
         'rowing': {
             title: 'rowing',
-            background: 'canoe.jfif',
+            background: 'rowing.png',
             description: 'Kayak 👍'
         },
         'wakeboarding': {
-            title: 'wakeboarding',
-            background: 'canoe.jfif',
+            title: 'snorkeling',
+            background: 'snorkel.png',
             description: 'Kayak 👍'
         },
     }

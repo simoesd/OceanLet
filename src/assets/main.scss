@@ -433,4 +433,30 @@ $tablet-mquery: 'screen and (min-width: 668px) and (max-width: 992px)';
             grid-column: 1;
         }
     }
+    
+
+    .activity-background {
+        height: 450px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+
+        .activity-background-filter {
+            height: 100%;
+        }
+    }
+
+    .activity-bg-label {
+        font-size: 2rem;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .activity-bg-description {
+        font-size: 1rem;
+        display: flex;
+        height: fit-content;
+        word-wrap: break-word;
+    }
 }

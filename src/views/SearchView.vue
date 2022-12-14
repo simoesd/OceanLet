@@ -137,6 +137,27 @@
         distance: "15 Km",
         categories: ["Rowing", "Fishing"],
       },
+      {
+        id: '14',
+        text: 'Canoe',
+        icon: "canoe2.svg",
+        distance: "8 Km",
+        categories: [ "canoeing"],
+      },
+      {
+        id: '15',
+        text: 'Canoe',
+        icon: "canoe3.svg",
+        distance: "8 Km",
+        categories: [ "canoeing"],
+      },
+      {
+        id: '16',
+        text: 'Canoe',
+        icon: "canoe4.svg",
+        distance: "0 Km",
+        categories: [ "canoeing"],
+      },
     ]);
 </script>
 <style scoped>

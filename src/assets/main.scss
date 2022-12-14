@@ -231,10 +231,10 @@ body {
         height: fit-content;
 
         .author-image {
+            aspect-ratio: 1;
             height: 60px;
             width: 60px;
             border-radius: 50%;
-            height: fit-content;
         }
 
         .author-name {
@@ -313,10 +313,20 @@ body {
     }
 }
 
+.image-modal {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    min-width: 400px;
+    min-height: 400px;
+    object-fit: cover;
+}
+
 $mobile-mquery: 'screen and (max-width: 667px)';
 $tablet-mquery: 'screen and (min-width: 668px) and (max-width: 992px)';
 
 @media #{$tablet-mquery} {
+
     .listing-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 3rem repeat(3, auto) 3rem;
@@ -369,6 +379,12 @@ $tablet-mquery: 'screen and (min-width: 668px) and (max-width: 992px)';
 }
 
 @media #{$mobile-mquery} {
+    
+    .image-modal {
+        min-width: unset;
+        min-height: unset;
+    }
+    
     .nav-search {
         display: none!important;
     }

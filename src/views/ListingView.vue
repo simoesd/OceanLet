@@ -2,7 +2,7 @@
 <template>
     <div class="container listing-container my-4 pb-4">
         <div class="listing-header my-auto mx-4">{{ listingInfo[listing].rating }} <i className="icon bi-star-fill"></i> {{ listingInfo[listing].location }} </div>
-        <div class="listing-image mx-4" :style="'background-image: url(\'/OceanLet/assets/' + listingInfo[listing].icon + '\')'" >
+        <div class="listing-image mx-4" :style="'background-image: url(\'/OceanLet/assets/' + listingInfo[listing].icon + '\')'" data-bs-toggle="modal" data-bs-target="#imageBackdrop" >
         </div>
         <div class="author-block">
             <img :src="'/OceanLet/assets/author-logo.png'" :alt="listingInfo[listing].author" class="author-image mx-auto"/>
@@ -51,6 +51,23 @@
             <button class="btn btn-info rent-button" @click="() => {showingError = !showingError}">
                 Rent
             </button>
+        </div>
+    </div>
+
+    
+    <!-- Modals -->
+    <div class="modal fade" id="imageBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content w-fit-content h-fit-content mx-auto" style="background-color: transparent;">
+                <img :src="'/OceanLet/assets/' + listingInfo[listing].icon" id="imagepreview" class="image-modal" >
+                <!-- <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">                    
+                    <div class="modal-body">
+                    </div>  
+                </div> -->
+            </div>
         </div>
     </div>
 </template>

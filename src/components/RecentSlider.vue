@@ -64,14 +64,14 @@
         text: 'Surfboard',
         icon: "surf1.svg",
         distance: "8 Km",
-        categories: ["Surfing"],
+        categories: ["Surf"],
       },
       {
         id:'5',
         text: 'Windsurf',
         icon: "windsurf1.svg",
         distance: "8 Km",
-        categories: ["Windsurfing"],
+        categories: ["Windsurf"],
       },
       {
         id:'6',
@@ -114,6 +114,20 @@
         icon: "kayak6.svg",
         distance: "8 Km",
         categories: ["Kayaking"],
+      },
+      {
+        id: '12',
+        text: 'Wakeboard',
+        icon: "wakeboard.png",
+        distance: "20 Km",
+        categories: ["Wakeboarding"],
+      },
+      {
+        id: '13',
+        text: 'Fishing rod set',
+        icon: "fishingrods.jpg",
+        distance: "15 Km",
+        categories: ["Rowing", "Fishing"],
       },
     ]);
 </script>
